@@ -76,7 +76,7 @@ public class MyFrame extends JFrame implements ActionListener{
         this.add(resultLabel);  
         this.add(Box.createVerticalStrut(20));
 
-        this.setSize(1100, 300);  
+        this.setSize(1500, 300);  
         this.setVisible(true);
 	}
 	@Override
@@ -89,7 +89,6 @@ public class MyFrame extends JFrame implements ActionListener{
     private void calculateResult()
     {
         String text = textField.getText();
-        System.out.println("Welcome "+ textField.getText());
         try {
             double result = postfix.calculate(text);
             resultLabel.setText("Result: " + Double.toString(result));

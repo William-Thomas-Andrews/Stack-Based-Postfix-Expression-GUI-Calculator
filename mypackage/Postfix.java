@@ -57,25 +57,20 @@ public class Postfix
                     }
                 } catch (Exception e)
                 {
-                    // System.out.println("Error: " + e.getMessage());
                     stack.clear();
                     throw new Exception("Error:" + e.getMessage());
-                    // return 0; // throw an error here
                 }
             }
         }
         if (stack.getSize() == 1)
         {
             double result = Double.parseDouble(stack.pop());
-            System.out.println("You entered " + result);
             return result;
         }
         else
         {
-            // System.out.println("Error: Invalid postfix expression.");
             stack.clear();
             throw new Exception("Invalid posfix expression");
-            // return 0; // throw an error here
         }
     }
 }

@@ -44,8 +44,9 @@ public class Main{
         Postfix postfix = new Postfix();
 
 
-
-        // TextCallback callback = new TextCallback()
+        // This can be used for callbacks:
+        
+        // TextCallback callback = new TextCallback() 
         // {
         //     @Override
         //     public void onTextReceived(String text) throws Exception

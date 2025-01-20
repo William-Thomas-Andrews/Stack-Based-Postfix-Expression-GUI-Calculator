@@ -16,25 +16,6 @@ import javax.swing.JFrame;
 import javax.swing.JTextField;
 
 
-// public class Main {
-//     public static void main(String[] args) 
-//     {
-//         Postfix postfix = new Postfix();
-//         boolean flag = true;
-//         while (flag)
-//         {
-//             Scanner in = new Scanner(System.in);
-//             String s = in.nextLine();
-//             if(s.equals("Q") || s.equals("q"))
-//             {
-//                 break;
-//             }
-//             double result = postfix.calculate(s);
-//         }
-        
-
-//     }
-// }
 
 public class Main{
 
@@ -44,8 +25,8 @@ public class Main{
         Postfix postfix = new Postfix();
 
 
-        // This can be used for callbacks:
-        
+        // This commented part is an example used for callbacks:
+
         // TextCallback callback = new TextCallback() 
         // {
         //     @Override
